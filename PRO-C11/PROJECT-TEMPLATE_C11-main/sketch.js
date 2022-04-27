@@ -1,3 +1,5 @@
+// Marcos fede
+
 var ship, shipAnimation;
 var sea, seaImage;
 
