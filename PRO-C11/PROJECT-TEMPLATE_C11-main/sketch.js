@@ -1,9 +1,11 @@
-// Marcos fede
+// variáveis
 
 var ship, shipAnimation;
 var sea, seaImage;
 
 function preload(){
+// Imagem e animações
+
 shipAnimation = loadAnimation("ship-1.png", "ship-2.png", "ship-3.png", "ship-4.png");
 seaImage = loadImage("sea.png");
 }
@@ -17,7 +19,8 @@ function draw() {
   background("blue");
     drawSprites();
 
-    
+// Imagens e animações    
+
     sea = createSprite(200, 220, 200, 30);
     sea.addImage(seaImage)
     sea.scale = 0.30
